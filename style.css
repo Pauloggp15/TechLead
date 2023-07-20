@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+}
+.BlocoUnico {
+    text-align: center;
+    margin-top: 52px;
+    margin-left: 37px;
+    margin-right: 37px;
+    font-family: 'Inter', sem serifo;;
+}
+.Perfil img{
+    width: 190px;
+    height: 190px;
+}
+.Links {
+    display: inline-block;
+    margin-top: 57px;
+}
+.Links ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.Links a{
+    text-decoration: none;
+    color: white;
+    background-color: #ff7300;
+    padding: 7.5px;
+    font-size: 20px;
+    display: block;
+    width: 215px;
+    border-radius: 20px;
+}
+.Links li{
+    margin-bottom: 13px;
+    list-style: none;
+}
+.Links a:hover{
+    color: black; 
+    border: solid; 
+}
+.Complemento img{
+    margin-top: 119px;
+    margin-bottom: 52px;
+    width: 315px;
+    height: 300px;
+}
+.Complemento h4{
+    font-size: 12px;
+}
+.Complemento a{
+    text-decoration: none;
+    color: black;
+}
+.Complemento a:hover{
+    font-size: 16px;
+    color: #ff7300;
+}
+@media (min-width: 992px){
+    .BlocoUnico{
+        display: flex;
+        margin: 0px;
+    }
+    .BlocoUm{
+        margin: 102px;
+        height: 1080px;
+        width: 960px;
+    }
+    .Perfil img{
+        width: 400px;
+        height: 400px;
+    }
+    .Links {
+        margin-top: 50px;
+    }
+    .Links a{
+        width: 500px;
+        height: 25px;
+        padding: 10px;
+        padding-bottom: 40px;
+        font-size: 50px;
+        border-radius: 60px;
+        margin-bottom: 32px;
+    }
+    .BlocoDois{
+        width: 960px;
+    }
+    .Complemento img{
+        margin-top: 240px;
+        margin-right: 196px;
+        width: 600px;
+        height: 600px;    
+    }
+    .Complemento h4{
+        display: none;
+    }
+}
